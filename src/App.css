@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+@import 'tailwindcss';
+
+.herobg {
+  background-image: url('../src/assets/Images/herobg.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 20px;
+  overflow: hidden;
+}
+.corporateimage {
+  background-image: linear-gradient(rgba(23, 9, 11, 0.6), rgba(23, 9, 11, 0.6)),
+    url('../src/assets/Images/corporate.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 20px;
+  overflow: hidden;
+}
+.hospimage {
+  background-image: linear-gradient(rgba(23, 9, 11, 0.6), rgba(23, 9, 11, 0.6)),
+    url('../src/assets/Images/hosp.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 20px;
+  overflow: hidden;
+}
+.cultureimage {
+  background-image: linear-gradient(rgba(23, 9, 11, 0.6), rgba(23, 9, 11, 0.6)),
+    url('../src/assets/Images/culture.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border-radius: 20px;
+  overflow: hidden;
+}
+.clientimage {
+  background-image: linear-gradient(rgba(23, 9, 11, 0.6), rgba(23, 9, 11, 0.6)),
+    url('../src/assets/Images/client.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border-radius: 20px;
+  overflow: hidden;
+}
+.pop {
+  background-image: linear-gradient(#00000000, #17090b),
+    url('../src/assets/Images/pop.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border-radius: 8px;
+  overflow: hidden;
+}
+.summer {
+  background-image: linear-gradient(#00000000, #17090b),
+    url('../src/assets/Images/summer.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border-radius: 8px;
+  overflow: hidden;
+}
+.workers {
+  background-image: linear-gradient(#00000000, #17090b),
+    url('../src/assets/Images/workers.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border-radius: 8px;
+  overflow: hidden;
+}
+.clientImage {
+  background-image: linear-gradient(
+      rgba(114, 47, 55, 0.9),
+      rgba(114, 47, 55, 0.9)
+    ),
+    url('../src/assets/Images/clientbg.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  overflow: hidden;
+}
+
+@theme {
+  --font-lato: 'Lato', sans-serif;
+  --font-playfair: 'Playfair Display', serif;
+  --color-pink-100: '#722F37';
+}
+@keyframes marquee {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+.animate-marquee {
+  display: inline-block;
+  animation: marquee 15s linear infinite;
+  min-width: max-content;
+}
