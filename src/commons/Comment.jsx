@@ -12,7 +12,7 @@ export default function Comment() {
           Your email address will not be published. Required fields are marked
         </p>
       </div>
-      <div className="flex-col flex gap-6 w-[502px]">
+      <div className="flex-col flex gap-6 md:w-[502px]">
         <div className="flex flex-col gap-2">
           <label className="text-[#4B4D4A] font-medium font-lato">
             Your comment*

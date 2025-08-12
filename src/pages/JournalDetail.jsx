@@ -30,7 +30,7 @@ export default function JournalDetail() {
       </div>
       <div className="max-w-4xl pb-[200px] pt-[100px]  mx-auto p-6 flex flex-col gap-2">
         <div className=" border-[#722F37] border-b pb-5 border-dotteda">
-          <h1 className="text-5xl font-playfair font-medium mt-4">
+          <h1 className="text-2xl md:text-5xl font-playfair font-medium mt-4">
             {entry.title}
           </h1>
           <div className="flex items-center gap-3 justify-between mt-8">

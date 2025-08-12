@@ -52,7 +52,7 @@ export default function Navbar() {
 
       {/* Mobile Menu */}
       {isOpen && (
-        <div className="absolute top-[100px] left-0 w-full mx-2 bg-white shadow-lg py-6 px-4 flex flex-col gap-4 lg:hidden z-50">
+        <div className="absolute top-[130px] left-0 w-full mx-2 bg-white shadow-lg py-6 px-4 flex flex-col gap-4 lg:hidden z-50">
           {navLinks.map((link) => (
             <NavLink
               key={link.path}
@@ -67,9 +67,12 @@ export default function Navbar() {
               {link.name}
             </NavLink>
           ))}
-          <button className="px-8 py-6 mt-4 rounded-full text-white font-bold text-sm bg-[#722F37]">
+          <NavLink
+            to="/contact-us"
+            className="px-8 justify-center items-center flex py-6 mt-4 rounded-full text-white font-bold text-sm bg-[#722F37]"
+          >
             Start Your Experience
-          </button>
+          </NavLink>
         </div>
       )}
     </div>
