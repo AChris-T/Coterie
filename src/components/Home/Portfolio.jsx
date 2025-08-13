@@ -1,3 +1,4 @@
+import { NavLink } from 'react-router-dom';
 import { ArrowRight } from '../../assets/icons';
 import Testimonials from '../../commons/Testimonials';
 
@@ -10,7 +11,10 @@ export default function Portfolio() {
         </h3>
         <div className="grid gap-3 grid-col-1 lg:grid-cols-2">
           <div className="pop h-[368px] w-full flex  text-white items-end">
-            <div className="py-3 bg-[#FFFFFF1A] flex gap-10 justify-between  px-3 items-center w-full">
+            <NavLink
+              to={'/wedding'}
+              className="py-3 bg-[#FFFFFF1A] flex gap-10 justify-between  px-3 items-center w-full"
+            >
               <div>
                 <h3 className="text-xl md:text-[32px] leading-8  font-bold">
                   PMO's Wedding Anniversary{' '}
@@ -19,11 +23,14 @@ export default function Portfolio() {
               <h2 className="bg-[#FFFFFF3D] flex justify-center items-center p-4 rounded-full">
                 <ArrowRight />
               </h2>
-            </div>
+            </NavLink>
           </div>
           <div className="flex flex-col md:flex-row  gap-3">
             <div className="summer h-[368px] w-full flex  text-white items-end">
-              <div className="py-3 bg-[#FFFFFF1A] flex gap-10 justify-between  px-3 items-center w-full">
+              <NavLink
+                to={'/bootcamp'}
+                className="py-3 bg-[#FFFFFF1A] flex gap-10 justify-between  px-3 items-center w-full"
+              >
                 <div>
                   <h3 className="text-xl md:text-[32px] leading-8  font-bold">
                     Summer Bootcamp{' '}
@@ -32,10 +39,13 @@ export default function Portfolio() {
                 <h2 className="bg-[#FFFFFF3D] flex justify-center items-center p-4 rounded-full">
                   <ArrowRight />
                 </h2>
-              </div>
+              </NavLink>
             </div>
             <div className="workers h-[368px] w-full flex  text-white items-end">
-              <div className="py-3 bg-[#FFFFFF1A] flex gap-10 justify-between  px-3 items-center w-full">
+              <NavLink
+                to={'/workers-dinner'}
+                className="py-3 bg-[#FFFFFF1A] flex gap-10 justify-between  px-3 items-center w-full"
+              >
                 <div>
                   <h3 className="text-xl md:text-[32px] leading-8 font-bold">
                     Worker’s Dinner{' '}
@@ -44,7 +54,7 @@ export default function Portfolio() {
                 <h2 className="bg-[#FFFFFF3D] flex justify-center items-center p-4 rounded-full">
                   <ArrowRight />
                 </h2>
-              </div>
+              </NavLink>
             </div>
           </div>
         </div>

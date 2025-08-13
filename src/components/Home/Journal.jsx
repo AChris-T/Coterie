@@ -1,3 +1,4 @@
+import { NavLink } from 'react-router-dom';
 import journal from '../../assets/Images/journal.png';
 import journal2 from '../../assets/Images/journal2.png';
 import journal3 from '../../assets/Images/journal3.png';
@@ -57,9 +58,12 @@ export default function Journal() {
         </div>{' '}
       </div>
       <div className="flex justify-center items-center">
-        <button className="bg-[#722F37] py-3 text-white px-16 font-lato rounded-lg cursor-pointer">
+        <NavLink
+          to={'/journal'}
+          className="bg-[#722F37] py-3 text-white px-16 font-lato rounded-lg cursor-pointer"
+        >
           Read All Journals
-        </button>
+        </NavLink>
       </div>
     </div>
   );

@@ -11,10 +11,12 @@ import Dinner from './pages/Dinner';
 import Journal from './pages/Journal';
 import JournalDetail from './pages/JournalDetail';
 import ContatctUs from './pages/ContatctUs';
+import ScrollToTop from './hooks/ScrollToTop';
 
 function App() {
   return (
     <div>
+      <ScrollToTop />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about-us" element={<About />} />
@@ -23,7 +25,7 @@ function App() {
         <Route path="/wedding" element={<Wedding />} />
         <Route path="/bootcamp" element={<Bootcamp />} />
         <Route path="/workers-dinner" element={<Dinner />} />
-        <Route path="/Journal" element={<Journal />} />
+        <Route path="/journal" element={<Journal />} />
         <Route path="/journal/:id" element={<JournalDetail />} />
         <Route path="/contact-us" element={<ContatctUs />} />
 
