@@ -1,5 +1,6 @@
 import React from 'react';
 import Navbar from '../../commons/Navbar';
+import { NavLink } from 'react-router-dom';
 
 export default function Hero() {
   return (
@@ -13,9 +14,12 @@ export default function Hero() {
           From boardrooms to ballrooms, we help organizations and individuals
           design moments that matter powered by research and care.
         </p>
-        <button className="bg-[#722F37] py-3 px-16 font-lato rounded-lg cursor-pointer">
+        <NavLink
+          to={'/contact-us'}
+          className="bg-[#722F37] py-3 px-16 font-lato rounded-lg cursor-pointer"
+        >
           Start Your Experience
-        </button>
+        </NavLink>
       </div>
     </div>
   );

@@ -37,7 +37,7 @@ export default function EventPort() {
           </div>
         </div>{' '}
       </div>
-      <div className="workers h-[755px] w-full flex  text-white items-end">
+      <div className="workers h-[371px] md:h-[755px] w-full flex  text-white items-end">
         <div className="py-3 bg-[#FFFFFF1A] flex gap-10 justify-between  px-3 items-center w-full">
           <NavLink to={'/workers-dinner'}>
             <h3 className="text-xl md:text-[40px] font-bold">
