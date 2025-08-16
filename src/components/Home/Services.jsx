@@ -1,5 +1,6 @@
 import React from 'react';
 import { ArrowRight } from '../../assets/icons';
+import { NavLink } from 'react-router-dom';
 
 export default function Services() {
   return (
@@ -9,7 +10,10 @@ export default function Services() {
       </h3>
       <div className="flex flex-col w-full px-2 gap-5">
         <div className="flex gap-5 flex-col lg:flex-row w-full ">
-          <div className="corporateimage h-[368px] w-full lg:w-[558px] flex  text-white items-end">
+          <NavLink
+            to="/services"
+            className="corporateimage h-[368px] w-full lg:w-[558px] flex  text-white items-end"
+          >
             <div className="py-6 bg-[#FFFFFF1A] flex gap-10 justify-around  px-3 items-center w-full">
               <div>
                 <h3 className="text-xl md:text-[40px] font-bold">
@@ -23,8 +27,11 @@ export default function Services() {
                 <ArrowRight />
               </h2>
             </div>
-          </div>
-          <div className="hospimage h-[368px] w-full lg:w-[550px] flex  text-white items-end">
+          </NavLink>
+          <NavLink
+            to="/services"
+            className="hospimage h-[368px] w-full lg:w-[550px] flex  text-white items-end"
+          >
             <div className="py-3 bg-[#FFFFFF1A] flex gap-10 justify-around  px-3 items-center w-full">
               <div>
                 <h3 className="text-xl md:text-[40px] font-bold">
@@ -39,9 +46,12 @@ export default function Services() {
                 <ArrowRight />
               </h2>
             </div>
-          </div>{' '}
+          </NavLink>{' '}
         </div>
-        <div className="cultureimage h-[368px] w-full flex  text-white items-end">
+        <NavLink
+          to="/services"
+          className="cultureimage h-[368px] w-full flex  text-white items-end"
+        >
           <div className="py-3 bg-[#FFFFFF1A] flex gap-10 justify-between  px-3 items-center w-full">
             <div>
               <h3 className="text-xl md:text-[40px] font-bold">
@@ -56,7 +66,7 @@ export default function Services() {
               <ArrowRight />
             </h2>
           </div>
-        </div>
+        </NavLink>
       </div>
     </div>
   );
