@@ -15,6 +15,7 @@ import ScrollToTop from './hooks/ScrollToTop';
 import Events from './pages/Events';
 import Consulting from './pages/Consulting';
 import CCEEvents from './pages/CCEEvents';
+import EventForm from './pages/EventForm';
 
 function App() {
   return (
@@ -34,7 +35,7 @@ function App() {
         <Route path="/events" element={<Events />} />
         <Route path="/consulting" element={<Consulting />} />
         <Route path="/cultural-events" element={<CCEEvents />} />
-        <Route path="/cultural-events" element={<CCEEvents />} />
+        <Route path="/events-form" element={<EventForm />} />
 
         {/* <Route path="/staff-retention" element={<Staff />} />
         <Route path="/emotional-intelligence" element={<Emotional />} />

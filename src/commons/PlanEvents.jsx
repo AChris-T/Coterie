@@ -1,5 +1,6 @@
 import React from 'react';
 import { PointedArrowIcon } from '../assets/icons';
+import { NavLink } from 'react-router-dom';
 
 export default function PlanEvents() {
   return (
@@ -14,10 +15,13 @@ export default function PlanEvents() {
             will follow up with a practical plan timeline and next steps
             tailored to your objectives and budget
           </p>
-          <button className="px-9 py-2 flex items-center gap-5 cursor-pointer text-[#722f37] bg-white  border-1 border-[#722F37]  rounded-md font-lato font-medium text-[18px]">
+          <NavLink
+            to="/events-form"
+            className="px-9 py-2 flex items-center gap-5 cursor-pointer text-[#722f37] bg-white  border-1 border-[#722F37]  rounded-md font-lato font-medium text-[18px]"
+          >
             <h3> Start your experience</h3>
             <PointedArrowIcon fill={'#722f37'} />
-          </button>
+          </NavLink>
         </div>
       </div>
     </div>
