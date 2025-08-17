@@ -11,7 +11,7 @@ export default function Services() {
       <div className="flex flex-col w-full px-2 gap-5">
         <div className="flex gap-5 flex-col lg:flex-row w-full ">
           <NavLink
-            to="/services"
+            to="/Events"
             className="corporateimage h-[368px] w-full lg:w-[558px] flex  text-white items-end"
           >
             <div className="py-6 bg-[#FFFFFF1A] flex gap-10 justify-around  px-3 items-center w-full">
@@ -29,7 +29,7 @@ export default function Services() {
             </div>
           </NavLink>
           <NavLink
-            to="/services"
+            to="/consulting"
             className="hospimage h-[368px] w-full lg:w-[550px] flex  text-white items-end"
           >
             <div className="py-3 bg-[#FFFFFF1A] flex gap-10 justify-around  px-3 items-center w-full">
@@ -49,7 +49,7 @@ export default function Services() {
           </NavLink>{' '}
         </div>
         <NavLink
-          to="/services"
+          to="/cultural-events"
           className="cultureimage h-[368px] w-full flex  text-white items-end"
         >
           <div className="py-3 bg-[#FFFFFF1A] flex gap-10 justify-between  px-3 items-center w-full">

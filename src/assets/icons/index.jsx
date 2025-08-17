@@ -57,18 +57,18 @@ export function Backtick() {
   );
 }
 
-export function PointedArrowIcon() {
+export function PointedArrowIcon({ fill }) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
       width="20px"
       height="20px"
       viewBox="0 0 24 24"
-      fill="none"
+      fill={fill}
     >
       <path
         d="M6 12H18M18 12L13 7M18 12L13 17"
-        stroke="#fff"
+        stroke={fill}
         strokeWidth="2"
         strokeLinecap="round"
         strokeLinejoin="round"

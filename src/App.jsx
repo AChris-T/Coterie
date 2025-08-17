@@ -12,6 +12,9 @@ import Journal from './pages/Journal';
 import JournalDetail from './pages/JournalDetail';
 import ContatctUs from './pages/ContatctUs';
 import ScrollToTop from './hooks/ScrollToTop';
+import Events from './pages/Events';
+import Consulting from './pages/Consulting';
+import CCEEvents from './pages/CCEEvents';
 
 function App() {
   return (
@@ -28,6 +31,9 @@ function App() {
         <Route path="/journal" element={<Journal />} />
         <Route path="/journal/:id" element={<JournalDetail />} />
         <Route path="/contact-us" element={<ContatctUs />} />
+        <Route path="/events" element={<Events />} />
+        <Route path="/consulting" element={<Consulting />} />
+        <Route path="/cultural-events" element={<CCEEvents />} />
 
         {/* <Route path="/staff-retention" element={<Staff />} />
         <Route path="/emotional-intelligence" element={<Emotional />} />

@@ -36,7 +36,7 @@ export default function Comment() {
         <div>
           <button className="px-9 py-5 flex items-center gap-5 cursor-pointer h-full  bg-[#722F37] text-white rounded-md font-lato font-medium text-[18px]">
             <h3> Submit</h3>
-            <PointedArrowIcon />
+            <PointedArrowIcon fill={'#fff'} />
           </button>
         </div>
       </div>

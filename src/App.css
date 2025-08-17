@@ -8,6 +8,35 @@
   border-radius: 20px;
   overflow: hidden;
 }
+.AboutHerobg {
+  background-image: url('../src/assets/Images/AboutHero.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 20px;
+  overflow: hidden;
+}
+.OurServiceHero {
+  background-image: url('../src/assets/Images/OurServiceHero.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 20px;
+  overflow: hidden;
+}
+.PortfolioHero {
+  background-image: url('../src/assets/Images/PortfolioHero.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 20px;
+  overflow: hidden;
+}
+.EventsHero {
+  background-image: url('../src/assets/Images/EventsHero.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
 .corporateimage {
   background-image: linear-gradient(rgba(23, 9, 11, 0.6), rgba(23, 9, 11, 0.6)),
     url('../src/assets/Images/corporate.jpg');
@@ -36,6 +65,24 @@
 .clientimage {
   background-image: linear-gradient(rgba(23, 9, 11, 0.6), rgba(23, 9, 11, 0.6)),
     url('../src/assets/Images/client.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border-radius: 20px;
+  overflow: hidden;
+}
+.ConsultingHero {
+  background-image: linear-gradient(rgba(23, 9, 11, 0.6), rgba(23, 9, 11, 0.6)),
+    url('../src/assets/Images/ConsultingHero.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border-radius: 20px;
+  overflow: hidden;
+}
+.CCEHero {
+  background-image: linear-gradient(rgba(23, 9, 11, 0.6), rgba(23, 9, 11, 0.6)),
+    url('../src/assets/Images/CCE.png');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;

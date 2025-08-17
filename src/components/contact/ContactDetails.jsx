@@ -162,7 +162,16 @@ export default function ContactDetails() {
               type="submit"
               className="px-9 py-5 cursor-pointer bg-[#722F37] text-white rounded-md"
             >
-              {isLoading ? 'Submitting...' : 'Submit'}
+              {isLoading ? (
+                'Submitting...'
+              ) : (
+                <div className="flex gap-3 items-center">
+                  <h3>Submit</h3>
+                  <div className="mt-1">
+                    <PointedArrowIcon fill={'#fff'} />
+                  </div>
+                </div>
+              )}
             </button>
           </div>
         </form>

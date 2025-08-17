@@ -159,10 +159,10 @@ export default function Storey() {
             {isLoading ? (
               'Submitting...'
             ) : (
-              <h3 className="flex cursor-pointer w-full justify-center">
+              <h3 className="flex gap-3 cursor-pointer w-full justify-center">
                 Send my story
                 <h3 className="flex items-center mt-1 justify-center">
-                  <PointedArrowIcon />
+                  <PointedArrowIcon fill={'#fff'} />
                 </h3>
               </h3>
             )}
