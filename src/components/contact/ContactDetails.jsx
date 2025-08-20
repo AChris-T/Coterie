@@ -59,10 +59,7 @@ export default function ContactDetails() {
       );
 
       const text = await res.text();
-      console.log(text); // you can check GAS response
-
-      showAlert('Your message has been sent successfully!', 'success');
-
+      console.log(text); // you can check GAS respons
       setForm({
         firstName: '',
         lastName: '',

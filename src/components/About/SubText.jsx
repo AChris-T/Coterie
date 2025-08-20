@@ -33,7 +33,7 @@ export default function SubText() {
           <p className="font-lato text-lg md:text-xl">
             To blend academic insight and creative strategy in delivering event
             concepts and consulting solutions that support service improvement,
-            customer experience innovation, and personalized celebration —
+            customer experience innovation, and personalized celebration,
             bridging research with real-world transformation.{' '}
           </p>
         </div>
