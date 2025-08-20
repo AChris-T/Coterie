@@ -3,7 +3,7 @@ import React from 'react';
 export default function CCEDetails() {
   return (
     <div className="py-[100px] px-4 md:p-[100px] flex flex-col ">
-      <h3 className="font-playfair text-start mb-3 text-[#17090B] font-bold text-3xl capitalize md:text-4xl">
+      <h3 className="font-playfair text-start  mb-3 text-[#17090B] font-bold text-3xl capitalize md:text-4xl">
         We design heritage celebrations, community festivals and inclusive
         milestone events that celebrate culture, elevate local voices and bring
         communities together.

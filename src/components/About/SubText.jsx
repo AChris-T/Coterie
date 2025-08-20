@@ -4,13 +4,14 @@ export default function SubText() {
   return (
     <div className="flex flex-col gap-10 w-[100%]">
       <div className="bg-[#722F37] overflow-hidden whitespace-nowrap">
-        <h3 className="inline-block animate-marquee px-4 font-medium font-lato text-white">
-          Coterie Experience was born from a passion for crafting moments that
-          go beyond the ordinary moments that linger, inspire, and connect.
-          Rooted in the belief that every gathering, whether corporate or
-          social, should reflect the heart and story of its host, we bring
-          together creativity, care, and attention to detail to curate
-          experiences that feel personal and unforgettable.
+        <h3 className="inline-block uppercase animate-marquee px-4 font-medium font-lato text-white">
+          Coterie Experience is a research-led event and consulting brand that
+          believes hospitality, celebration, and service should feel as good as
+          they perform. Whether we're advising a hotel on guest experience or
+          designing a milestone event, we blend creative strategy with
+          continuous improvement to deliver moments that linger. Grounded in
+          academic research and driven by heart, we bring precision, warmth, and
+          intentionality to everything we curate.
         </h3>
       </div>
       <div className="flex gap-10 lg:gap-20 w-full flex-col md:flex-row justify-center px-4 lg:px-[118px]">
