@@ -19,7 +19,7 @@ export default function SubText() {
           <h3 className="text-[#17090B] font-bold font-playfair text-2xl md:text-[40px]">
             Vision Statement
           </h3>
-          <p className="font-lato text-lg md:text-xl">
+          <p className="font-lato text-base">
             To become a trusted consultancy and event architecture firm, shaping
             inclusive, expressive, and high-impact experiences that elevate
             hospitality, cultural celebration, and service excellence, one
@@ -30,7 +30,7 @@ export default function SubText() {
           <h3 className="text-[#17090B] font-bold font-playfair text-2xl md:text-[40px]">
             Mission Statement
           </h3>
-          <p className="font-lato text-lg md:text-xl">
+          <p className="font-lato text-base">
             To blend academic insight and creative strategy in delivering event
             concepts and consulting solutions that support service improvement,
             customer experience innovation, and personalized celebration,
