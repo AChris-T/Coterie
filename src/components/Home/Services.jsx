@@ -35,7 +35,7 @@ export default function Services() {
             <div className="py-3 bg-[#FFFFFF1A] flex gap-10 justify-around  px-3 items-center w-full">
               <div>
                 <h3 className="text-xl md:text-[40px] font-bold">
-                  Hospitality Consulting{' '}
+                  Consulting{' '}
                 </h3>
                 <p className="text-sm md:text-base">
                   Service delivery audits, guest journey enhancement, training

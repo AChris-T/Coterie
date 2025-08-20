@@ -17,7 +17,7 @@ export default function Portfolio() {
             >
               <div>
                 <h3 className="text-xl md:text-[32px] leading-8  font-bold">
-                  PMO's Wedding Anniversary{' '}
+                  Timeless Love Experience{' '}
                 </h3>
               </div>
               <h2 className="bg-[#FFFFFF3D] flex justify-center items-center p-4 rounded-full">
@@ -33,7 +33,7 @@ export default function Portfolio() {
               >
                 <div>
                   <h3 className="text-xl md:text-[32px] leading-8  font-bold">
-                    Summer Bootcamp{' '}
+                    Summer Skills Experience{' '}
                   </h3>
                 </div>
                 <h2 className="bg-[#FFFFFF3D] flex justify-center items-center p-4 rounded-full">
@@ -48,7 +48,7 @@ export default function Portfolio() {
               >
                 <div>
                   <h3 className="text-xl md:text-[32px] leading-8 font-bold">
-                    Worker’s Dinner{' '}
+                    Corporate Appreciation Event{' '}
                   </h3>
                 </div>
                 <h2 className="bg-[#FFFFFF3D] flex justify-center items-center p-4 rounded-full">

@@ -12,7 +12,7 @@ export default function WhyUs() {
             <h3 className="text-[#17090B] text-2xl md:text-[40px] font-playfair font-bold">
               Boutique Attention to Detail
             </h3>
-            <p className="font-lato">
+            <p className="font-lato text-[#17090B]">
               We operate with a philosophy of quality over quantity. By taking
               on a limited number of clients at a time, we’re able to fully
               immerse ourselves in your story and vision. This allows us to
@@ -25,7 +25,7 @@ export default function WhyUs() {
             <h3 className="text-[#17090B] md:text-[40px] text-2xl font-playfair font-bold">
               Boutique Attention to Detail
             </h3>
-            <p className="font-lato">
+            <p className="font-lato text-[#17090B]">
               Your event should feel like a memory before it even begins. That’s
               why we start by asking not just what you want to do, but how you
               want people to feel. From there, we curate every detail — music,
@@ -38,7 +38,7 @@ export default function WhyUs() {
             <h3 className="text-[#17090B] md:text-[40px] text-2xl  font-playfair font-bold">
               Elegant, Elevated Aesthetic{' '}
             </h3>
-            <p className="font-lato">
+            <p className="font-lato text-[#17090B]">
               We don't chase trends — we interpret your identity through a lens
               of timeless style. Our design language is understated but
               impactful, favoring clean lines, natural textures, and intentional
@@ -51,7 +51,7 @@ export default function WhyUs() {
             <h3 className="text-[#17090B] md:text-[40px] text-2xl font-playfair font-bold">
               Client-Centered Journey{' '}
             </h3>
-            <p className="font-lato">
+            <p className="font-lato text-[#17090B]">
               We understand that planning an event can be as overwhelming as it
               is exciting — which is why we’ve built a process designed around
               clarity, collaboration, and care. From our first call to your
