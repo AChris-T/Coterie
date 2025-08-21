@@ -1,10 +1,48 @@
-import React from 'react';
+import React, { useEffect, useRef } from 'react';
 
 export default function SubText() {
+  const marqueeRef = useRef(null);
+
+  useEffect(() => {
+    const el = marqueeRef.current;
+    if (!el) return;
+
+    let start = null;
+    let position = window.innerWidth; // start from right
+    const entrySpeed = 3; // pixels per frame (fast entry)
+    const scrollSpeed = 1; // pixels per frame (slow scroll)
+    let isEntering = true;
+
+    function step(timestamp) {
+      if (!start) start = timestamp;
+
+      if (isEntering) {
+        position -= entrySpeed; // fast
+        if (position <= 0) {
+          isEntering = false;
+        }
+      } else {
+        position -= scrollSpeed; // slow
+        if (position <= -el.offsetWidth) {
+          position = window.innerWidth; // reset
+          isEntering = true;
+        }
+      }
+
+      el.style.transform = `translateX(${position}px)`;
+      requestAnimationFrame(step);
+    }
+
+    requestAnimationFrame(step);
+  }, []);
   return (
     <div className="flex flex-col gap-10 w-[100%]">
       <div className="bg-[#722F37] overflow-hidden whitespace-nowrap">
-        <h3 className="inline-block uppercase animate-marquee px-4 font-medium font-lato text-white">
+        <h3
+          ref={marqueeRef}
+          className="uppercase px-4 font-medium font-lato text-white"
+          style={{ whiteSpace: 'nowrap', willChange: 'transform' }}
+        >
           Coterie Experience is a research-led event and consulting brand that
           believes hospitality, celebration, and service should feel as good as
           they perform. Whether we're advising a hotel on guest experience or

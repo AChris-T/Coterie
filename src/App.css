@@ -162,10 +162,13 @@
 }
 @keyframes marquee {
   0% {
-    transform: translateX(100%);
+    transform: translateX(100%); /* Start off-screen to the right */
+  }
+  5% {
+    transform: translateX(0); /* Quickly slide in */
   }
   100% {
-    transform: translateX(-100%);
+    transform: translateX(-100%); /* Then scroll slowly to the left */
   }
 }
 
