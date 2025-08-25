@@ -1,32 +1,37 @@
 import React from 'react';
 
 export default function ConsultingDetails() {
-    return (
-       <div className="py-[100px] px-4 md:p-[100px] flex flex-col ">
+  return (
+    <div className="py-[100px] px-4 md:p-[100px] flex flex-col ">
       <h3 className="font-playfair text-start mb-3 text-[#17090B] font-bold text-3xl capitalize md:text-4xl">
-        Strategy, production planning and creative direction to make your next
-        initiative resonate
+        Strategy, service design, and creative direction that make your next
+        initiative resonate.
       </h3>
       <h2 className="font-lato text-lg">
-        Our consulting offering is aimed at organisations and creative teams
-        that want to reduce uncertainty and get faster results when planning
-        events and brand activations. We start by uncovering the core objectives
-        audience expectations and budget realities and then build a pragmatic
-        strategy with measurable outcomes and an executable timeline. The work
-        can include production audits vendor negotiation and budget optimization
-        training for internal teams and playbooks that turn one off projects
-        into repeatable processes. We provide ready to use templates and hands
-        on coaching so staff gain confidence running complex productions and so
-        decision makers can see clear options and trade offs. Clients often
-        engage us for short term bursts to unblock planning or for embedded
-        support that guides a full project from first brief to final report. Our
-        approach values clarity simplicity and measurable impact so every
-        recommendation connects to a business outcome.
+        We help organizations and creative teams reduce uncertainty and plan
+        with confidence. From event strategy to service delivery improvement and
+        brand activation, our consulting turns ideas into clear roadmaps with
+        measurable results. Whether for short-term support or full project
+        guidance, we bring clarity, creativity, and impact to every initiative.
+        Our consulting service is designed for organizations that want clarity,
+        confidence, and faster results in shaping experiences whether for
+        audiences, customers, or communities. We begin by uncovering core
+        objectives, audience expectations, and budget realities, then shape a
+        pragmatic strategy with measurable outcomes and a timeline that works.
+        From production audits and vendor negotiation to service process
+        reviews, customer journey mapping, budget optimization, and team
+        training, we provide tools and guidance that simplify complexity.
+        Playbooks, templates, and coaching ensure staff can run confident
+        operations, while decision-makers gain clear options, trade-offs, and
+        ROI insights. Whether engaged for a short-term boost or as embedded
+        support from first brief to final report, our approach is grounded in
+        research, empathy, and continuous improvement so every recommendation
+        connects directly to business outcomes.
       </h2>
       <h3 className="mt-10 font-lato font-bold text-lg">What we do.</h3>
       <ol className="list-disc p-4">
         <li className="font-lato text-lg">
-          Event strategy & objectives alignment
+          Event strategy & objectives alignment{' '}
         </li>
         <li className="font-lato text-lg">
           Brand activation concept & audience targeting{' '}
@@ -38,7 +43,7 @@ export default function ConsultingDetails() {
           Budget optimization and cost-saving opportunities{' '}
         </li>
         <li className="font-lato text-lg">
-          Training: team process, on-site roles & run-sheet best practice{' '}
+          Team training: processes, on-site roles, & best practices{' '}
         </li>
         <li className="font-lato text-lg">
           Risk assessment & contingency planning{' '}
@@ -46,21 +51,20 @@ export default function ConsultingDetails() {
       </ol>
       <h3 className="mt-10 font-lato font-bold text-lg">Our Deliverables</h3>
       <ol className="list-disc p-4">
-        <li className="font-lato text-lg">Strategic brief & measurable KPIs</li>
         <li className="font-lato text-lg">
-          Optimized event budget (line-item)
+          Strategic brief with measurable KPIs
+        </li>
+        <li className="font-lato text-lg">Optimized line-item event budget</li>
+        <li className="font-lato text-lg">
+          Vendor shortlist and negotiation guidance
         </li>
         <li className="font-lato text-lg">
-          Vendor shortlist and negotiation guidance{' '}
+          Production timeline and role matrix
         </li>
         <li className="font-lato text-lg">
-          Production timeline and role matrix{' '}
-        </li>
-        <li className="font-lato text-lg">
-          Training session recordings & templates{' '}
+          Training session recordings & ready-to-use templates
         </li>
       </ol>
     </div>
-  
   );
 }

@@ -8,23 +8,23 @@ export default function SubText() {
     if (!el) return;
 
     let start = null;
-    let position = window.innerWidth; // start from right
-    const entrySpeed = 3; // pixels per frame (fast entry)
-    const scrollSpeed = 1; // pixels per frame (slow scroll)
+    let position = window.innerWidth;
+    const entrySpeed = 3; 
+    const scrollSpeed = 1; 
     let isEntering = true;
 
     function step(timestamp) {
       if (!start) start = timestamp;
 
       if (isEntering) {
-        position -= entrySpeed; // fast
+        position -= entrySpeed; 
         if (position <= 0) {
           isEntering = false;
         }
       } else {
-        position -= scrollSpeed; // slow
+        position -= scrollSpeed; 
         if (position <= -el.offsetWidth) {
-          position = window.innerWidth; // reset
+          position = window.innerWidth;
           isEntering = true;
         }
       }

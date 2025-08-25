@@ -9,6 +9,14 @@ export default function ConsultingHero() {
         <h3 className="font-playfair max-w-[856px] text-3xl md:text-[70px] md:leading-20 font-extrabold">
           Consulting{' '}
         </h3>
+        <p>
+          We provide strategy, service design and creative direction to help
+          organizations and teams reduce uncertainty and plan with confidence.
+          From event strategy to service delivery improvement and brand
+          activation, our consulting turns ideas into clear roadmaps with
+          measurable results. Whether for short-term support or full project
+          guidance, we bring clarity, creativity, and impact to every initiative
+        </p>
       </div>
     </div>
   );

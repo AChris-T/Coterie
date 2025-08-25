@@ -4,63 +4,59 @@ export default function EventsDetails() {
   return (
     <div className="py-[100px] px-4 md:p-[100px] flex flex-col ">
       <h3 className="font-playfair text-center mb-3 text-[#17090B] font-bold text-3xl capitalize md:text-4xl">
-        We craft experiences that leave guests smiling and stories to tell.
+        We craft experiences that leave guests smiling and stories worth telling{' '}
       </h3>
       <h2 className="font-lato text-lg">
-        We design and manage events across every scale and style so leaders and
-        hosts can focus on people and moments while we handle the many moving
-        parts. From intimate private celebrations to large corporate launches
-        and public product activations we build a clear concept and translate it
-        into a detailed plan that covers venue selection production logistics
-        vendor coordination and guest care. Our teams combine creative direction
-        with pragmatic planning so every visual choice and every technical
-        requirement works together to tell the intended story and keep the
-        schedule on track. We take responsibility for supplier contracts permits
-        timelines and contingency plans and we staff each event with experienced
-        managers who oversee delivery on the day of the event. For hybrid and
-        streamed experiences we design the online journey alongside the physical
-        experience so remote guests enjoy a polished connection to the program.
-        After the event we provide a review with attendee feedback data and
-        practical recommendations so future editions perform even better.
+        We craft experiences with insight, intention, and care. From private
+        celebrations to corporate launches and cultural gatherings, every moment
+        is shaped by a clear concept that blends creative direction with
+        pragmatic planning. While you focus on people, we align the details;
+        venue, logistics, vendors, and guest care so the story flows seamlessly.
+        Grounded in research and driven by empathy, we bring structure and
+        creativity together: managing contracts, securing permits, building
+        contingency plans, and leading delivery with experienced managers. For
+        hybrid and virtual formats, we curate seamless online journeys that
+        mirror the energy of the live event. Afterward, we provide meaningful
+        feedback and improvement insights, so every edition performs even
+        better.
       </h2>
       <h3 className="mt-10 font-lato font-bold text-lg">What we do.</h3>
       <ol className="list-disc p-4">
         <li className="font-lato text-lg">
-          Full event concept & creative direction (theme, visual mood &
-          storytelling)
+          Creative Direction: theme, storytelling, and visual mood
         </li>
         <li className="font-lato text-lg">
-          Venue scouting, negotiation & floorplan design
+          Venue & Floorplan Design: scouting, negotiation, and layouts{' '}
         </li>
         <li className="font-lato text-lg">
-          Vendor management: catering, AV, staging, talent, decor
+          Vendor Management: catering, AV, staging, décor, and talent{' '}
         </li>
         <li className="font-lato text-lg">
-          On-site management & guest experience (check-in, ushers, hospitality)
+          On-Site Experience: guest hospitality, check-in, and flow management{' '}
         </li>
         <li className="font-lato text-lg">
-          Virtual & hybrid event production (streaming, moderation)
+          Virtual & Hybrid Production: streaming, moderation, and engagement{' '}
         </li>
         <li className="font-lato text-lg">
-          Post-event reporting and attendee feedback analysis
+          Post-Event Insights: attendee feedback and data-driven recommendations{' '}
         </li>
       </ol>
       <h3 className="mt-10 font-lato font-bold text-lg">Our process</h3>
       <ol className="list-decimal p-4">
         <li className="font-lato text-lg">
-          Discover Kickoff call, objectives, budget and audience profile.
+          Discover: Objectives, budget, and audience profile{' '}
         </li>
         <li className="font-lato text-lg">
-          Create Concept, moodboard and preliminary floorplan.
+          Create: Concept, storytelling, and mood board{' '}
         </li>
         <li className="font-lato text-lg">
-          Plan Vendor selection, contracts, logistics and production schedule.
+          Plan: Vendor selection, contracts, and logistics{' '}
         </li>
         <li className="font-lato text-lg">
-          Execute On-site coordination, guest management, technical run.
+          Executive: Guest management, technical run, and live delivery{' '}
         </li>
         <li className="font-lato text-lg">
-          Review Wrap report, attendee feedback and ROI summary.
+          Review: Wrap report, feedback, and ROI insights{' '}
         </li>
       </ol>
     </div>

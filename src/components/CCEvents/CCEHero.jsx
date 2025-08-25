@@ -9,6 +9,12 @@ export default function CCEHero() {
         <h3 className="font-playfair w-full text-center text-3xl md:text-[70px] md:leading-20 font-extrabold">
           Cultural & Community Events{' '}
         </h3>
+        <p>
+          We create heritage celebrations, community festivals, and milestone
+          gatherings that celebrate culture, elevate local voices, and bring
+          people together. Rooted in respect and authenticity, our events
+          reflect traditions, foster connection, and leave lasting legacies.
+        </p>
       </div>
     </div>
   );
