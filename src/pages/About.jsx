@@ -5,6 +5,7 @@ import OurStory from '../components/About/OurStory';
 import Portfolio from '../components/Home/Portfolio';
 import Testimonials from '../commons/Testimonials';
 import Storey from '../components/Home/Storey';
+import FAQ from '../components/About/FAQ';
 
 export default function About() {
   return (
@@ -12,6 +13,7 @@ export default function About() {
       <AboutHero />
       <SubText />
       <OurStory />
+      <FAQ />
       <div>
         <Testimonials />
         <Storey />
