@@ -59,26 +59,28 @@ export default function OurStory() {
             Our Values
           </h3>
           <p className="font-lato">
-            <ol className="list-disc list-inside space-y-2">
+            <ol className=" space-y-2">
               <li>
-                <b>Research-Driven Creativity </b> — Evidence meets emotion in
-                every plan and proposal
+                <b>Research-Driven Creativity </b>{' '}
+                <p> Evidence meets emotion in every plan and proposal</p>
               </li>
               <li>
-                <b> Affordable Elegance </b> — Impactful experiences don't
-                require excess
+                <b> Affordable Elegance </b>
+                <p>Impactful experiences don't require excess</p>
               </li>
               <li>
-                <b> Memorable Encounters </b> — Every engagement is designed to
-                resonate
+                <b> Memorable Encounters </b>
+                <p>Every engagement is designed to resonate</p>
               </li>
               <li>
-                <b> Human Centered Planning </b>— Rooted in empathy, reflection,
-                and identity
+                <b> Human Centered Planning </b>
+                <p>Rooted in empathy, reflection, and identity</p>
               </li>
               <li>
-                <b> Continuous Improvement </b> — Every client journey is a
-                learning loop for better outcomes
+                <b> Continuous Improvement </b>
+                <p>
+                  Every client journey is a learning loop for better outcomes
+                </p>
               </li>
             </ol>
           </p>
