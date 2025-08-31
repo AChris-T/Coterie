@@ -61,22 +61,24 @@ export default function OurStory() {
           <p className="font-lato">
             <ol className="list-disc list-inside space-y-2">
               <li>
-                Research-Driven Creativity — Evidence meets emotion in every
-                plan and proposal
+                <b>Research-Driven Creativity </b> — Evidence meets emotion in
+                every plan and proposal
               </li>
               <li>
-                Affordable Elegance — Impactful experiences don't require excess
+                <b> Affordable Elegance </b> — Impactful experiences don't
+                require excess
               </li>
               <li>
-                Memorable Encounters — Every engagement is designed to resonate
+                <b> Memorable Encounters </b> — Every engagement is designed to
+                resonate
               </li>
               <li>
-                Human Centered Planning — Rooted in empathy, reflection, and
-                identity
+                <b> Human Centered Planning </b>— Rooted in empathy, reflection,
+                and identity
               </li>
               <li>
-                Continuous Improvement — Every client journey is a learning loop
-                for better outcomes
+                <b> Continuous Improvement </b> — Every client journey is a
+                learning loop for better outcomes
               </li>
             </ol>
           </p>
